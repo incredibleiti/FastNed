@@ -101,7 +101,7 @@
             $scope.startGame = function() {
                 if (launcherInterval) clearInterval(launcherInterval);
                 gameActive = true;
-                $scope.chancesLeft = 10;
+                $scope.chancesLeft = 6;
                 $scope.hitLetters.fill(false);
                 renderLetters();
                 launcherInterval = setInterval(moveLauncher, 40);
